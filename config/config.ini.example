@@ -1,0 +1,8 @@
+[database]
+db_host=
+db_login=
+db_pass=
+db_name=
+
+[app]
+environment=dev
