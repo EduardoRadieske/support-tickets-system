@@ -17,7 +17,6 @@ Desenvolver um **sistema de tickets de suporte** em **PHP Vanilla** onde usuári
 ### 🎟️ Tickets
 - Abertura de ticket: título, descrição, prioridade (baixa, média, alta).
 - Status: `aberto` → `em andamento` → `resolvido` (ou `cancelado`).
-- Upload de anexo opcional (imagem, PDF, etc.).
 - Histórico de mensagens (cliente ↔ suporte).
 - Datas automáticas de criação e atualização.
 - Fechamento de ticket exclusivo para administradores.
@@ -40,7 +39,6 @@ Desenvolver um **sistema de tickets de suporte** em **PHP Vanilla** onde usuári
 - Responder mensagens.
 - Alterar status do ticket.
 - Fechar ticket.
-- (Opcional) Reatribuir ticket a outro admin.
 
 ---
 
@@ -129,7 +127,6 @@ Desenvolver um **sistema de tickets de suporte** em **PHP Vanilla** onde usuári
 
 ## 🚀 Extras (para aumentar o desafio)
 - Notificação visual de novos tickets.
-- Upload de anexos com validação de tipo/tamanho.
 - Filtros e pesquisa de tickets.
 - Dashboard com contagem de tickets por status.
 - Middleware simples para autenticação.
